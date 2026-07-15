@@ -82,8 +82,11 @@ export default function Home() {
           Le idee migliori non sono necessariamente le più costose, ma quelle che rendono il
           nostro studio un posto migliore in cui lavorare.
         </p>
-        <p className="mt-4 font-display text-sm tracking-wide text-ink/40">Taurinense Design</p>
-      </footer>
+<img
+    src="https://www.taurinensedesign.com/wp-content/uploads/2021/03/Logo-Taurinense.png"
+    alt="Taurinense Design"
+    className="mx-auto mt-5 h-9 w-auto opacity-70"
+  />      </footer>
     </main>
   );
 }
