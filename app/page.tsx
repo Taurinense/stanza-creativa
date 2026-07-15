@@ -7,7 +7,7 @@ export default function Home() {
   <img
     src="https://www.taurinensedesign.com/wp-content/uploads/2021/03/Logo-Taurinense.png"
     alt="Taurinense"
-    className="h-6 w-auto opacity-80"
+    className="h-16 w-auto opacity-80"
   />
   <span className="rounded-full border border-line bg-paper px-3 py-1 text-xs font-medium text-ink/60">
     Contest interno
@@ -89,7 +89,7 @@ export default function Home() {
 <img
     src="https://www.taurinensedesign.com/wp-content/uploads/2021/03/Logo-Taurinense.png"
     alt="Taurinense Design"
-    className="mx-auto mt-5 h-9 w-auto opacity-70"
+    className="mx-auto mt-5 h-14 w-auto opacity-70"
   />      </footer>
     </main>
   );
