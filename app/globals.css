@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F6F1E7;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(28,26,22,0.05) 1px, transparent 0);
+  background-size: 22px 22px;
+  color: #1C1A16;
+}
+
+::selection {
+  background: #D94F2A;
+  color: #F6F1E7;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid #D94F2A;
+  outline-offset: 3px;
+}
+
+/* Hand-drawn room outline, the page's signature motif */
+.room-plan {
+  stroke: #1C1A16;
+  stroke-width: 1.4;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
