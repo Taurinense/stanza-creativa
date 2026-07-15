@@ -3,12 +3,16 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <main className="mx-auto flex min-h-screen max-w-md flex-col px-6 pb-28 pt-10 sm:max-w-lg">
-      <header className="flex items-center justify-between">
-        <span className="font-display text-sm tracking-wide text-ink/60">Taurinense</span>
-        <span className="rounded-full border border-line bg-paper px-3 py-1 text-xs font-medium text-ink/60">
-          Contest interno
-        </span>
-      </header>
+<header className="flex items-center justify-between">
+  <img
+    src="https://www.taurinensedesign.com/wp-content/uploads/2021/03/Logo-Taurinense.png"
+    alt="Taurinense"
+    className="h-6 w-auto opacity-80"
+  />
+  <span className="rounded-full border border-line bg-paper px-3 py-1 text-xs font-medium text-ink/60">
+    Contest interno
+  </span>
+</header>
 
       {/* Signature: la pianta della stanza vuota che aspetta un'idea */}
       <div className="mx-auto mt-8 w-full max-w-xs animate-fadeUp">
